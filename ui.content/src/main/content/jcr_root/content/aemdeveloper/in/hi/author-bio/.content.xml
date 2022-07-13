@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-07-10T14:01:19.330+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2022-07-10T14:01:19.337+05:30"
+        cq:lastRolledoutBy="admin"
+        cq:lastTranslationUpdate="{Date}2022-07-10T13:46:45.636+05:30"
+        cq:template="/conf/aemdeveloper/settings/wcm/templates/content-page"
+        cq:translationSourcePath="/content/aemdeveloper/lm/en/author-bio"
+        cq:translationStatus="DRAFT"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Author Bio"
+        sling:resourceType="aemdeveloper/components/structure/page">
+        <root
+            cq:lastRolledout="{Date}2022-07-10T14:01:19.327+05:30"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                cq:lastRolledout="{Date}2022-07-10T14:01:19.334+05:30"
+                cq:lastRolledoutBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/aemdeveloper/lm/hi/author-bio"
+            cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
+            jcr:primaryType="cq:LiveCopy"/>
+    </jcr:content>
+</jcr:root>

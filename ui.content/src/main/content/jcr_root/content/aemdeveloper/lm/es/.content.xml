@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[/libs/settings/cloudconfigs/translation/translationcfg/default_translation]"
+        cq:conf="/conf/aemdeveloper"
+        cq:lastModified="{Date}2022-07-10T13:46:44.759+05:30"
+        cq:lastModifiedBy="translation-job-service"
+        cq:lastTranslationUpdate="{Date}2022-07-10T13:46:44.759+05:30"
+        cq:template="/conf/aemdeveloper/settings/wcm/templates/content-page"
+        cq:translationProject="[/content/projects/shiva_msm1/shiva_msm1]"
+        cq:translationSourcePath="/content/aemdeveloper/lm/en"
+        cq:translationStatus="DRAFT"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Spanish"
+        sling:resourceType="aemdeveloper/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+    </jcr:content>
+    <author-bio/>
+    <ab/>
+</jcr:root>

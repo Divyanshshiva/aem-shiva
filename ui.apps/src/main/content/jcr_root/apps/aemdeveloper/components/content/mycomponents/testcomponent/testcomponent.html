@@ -1,0 +1,29 @@
+<h1> hi shiva bro</h1>
+
+<p data-sly-test="${properties.firstname}">sightly property: ${ properties.firstname}</p>
+
+<p data-sly-test="${properties.lastname}">sightly property: ${ properties.lastname}</p>
+
+
+ <pre data-sly-use.refObject="com.aem.developer.core.models.TestModel1">
+ ${refObject.firstName}
+ ${refObject.lastName} 
+ </pre>
+ <sly data-sly-list="${currentPage.parent.listChildren}">
+    <ul>
+        <li>
+            <h3>${item.title}</h3>
+        </li>
+    </ul>
+</sly>
+
+
+<h1>Title of the page is: ${currentPage.title}</h1>
+<h3>Array join: ${['Batman', 'Superman', 'Flash'] @ join='-'}</h3>
+
+<sly data-sly-test="${wcmmode.edit}">
+<h3>We are in the edit mode</h3>
+</sly>
+<sly data-sly-test="${wcmmode.preview}">
+<h3>We are in the preview mode</h3>
+</sly>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="481fa352-7d24-43f4-9fe5-122795c6d73f">
+    <jcr:content
+        cq:name="f3"
+        cq:parentPath="/content/dam/aemdeveloper/my-cf-model"
+        cq:versionCreator="admin"
+        jcr:description=""
+        jcr:lastModified="{Date}2022-07-08T23:08:44.532+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="f3"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-07-08T23:08:44.532+05:30">
+        <data
+            cq:model="/conf/aemdeveloper/settings/dam/cfm/models/model3"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                date="{Date}2022-07-08T00:00:00.000+05:30"
+                date_x0040_LastModified="{Date}2022-07-08T23:08:44.486+05:30"
+                name="name"
+                name_x0040_LastModified="{Date}2022-07-08T23:08:44.486+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

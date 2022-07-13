@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="705266ac-6f94-4b0d-bdee-9a4483093ef4">
+    <jcr:content
+        cq:name="srinu"
+        cq:parentPath="/content/dam/aemdeveloper/my-cf-model"
+        cq:versionCreator="admin"
+        jcr:description=""
+        jcr:lastModified="{Date}2022-07-08T23:00:51.735+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="srinu"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-07-08T23:00:51.735+05:30">
+        <data
+            cq:model="/conf/aemdeveloper/settings/dam/cfm/models/shiva-first-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                firstname="srinu"
+                firstname_x0040_LastModified="{Date}2022-07-08T23:00:51.685+05:30"
+                pass="{Boolean}true"
+                pass_x0040_LastModified="{Date}2022-07-08T23:00:51.687+05:30"
+                password="123456"
+                password_x0040_LastModified="{Date}2022-07-08T23:00:51.686+05:30"
+                secondname="yadav"
+                secondname_x0040_LastModified="{Date}2022-07-08T23:00:51.686+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

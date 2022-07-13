@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f217e271-d167-4e8b-a9fc-c9c4e0cfe055">
+    <jcr:content
+        cq:name="ssss"
+        cq:parentPath="/content/dam/aemdeveloper/my-cf-model"
+        cq:versionCreator="admin"
+        jcr:description=""
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="ssss"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/aemdeveloper/settings/dam/cfm/models/shiva-first-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                firstname_x0040_LastModified="{Date}2022-07-10T08:16:43.304+05:30"
+                pass_x0040_LastModified="{Date}2022-07-10T08:16:43.304+05:30"
+                password_x0040_LastModified="{Date}2022-07-10T08:16:43.304+05:30"
+                secondname_x0040_LastModified="{Date}2022-07-10T08:16:43.304+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

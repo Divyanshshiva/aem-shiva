@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="249cb82f-6165-4b07-953f-2fdc342ad461">
+    <jcr:content
+        jcr:description="cf2"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="cf2"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/aemdeveloper/settings/dam/cfm/models/model4"
+            jcr:primaryType="nt:unstructured">
+            <master jcr:primaryType="nt:unstructured"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

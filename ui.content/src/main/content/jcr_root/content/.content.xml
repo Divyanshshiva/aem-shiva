@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="sling:OrderedFolder">
+    <rep:policy/>
+    <experience-fragments/>
+    <dam/>
+    <cq:tags/>
+    <projects/>
+    <usergenerated/>
+    <screens/>
+    <catalogs/>
+    <launches/>
+    <campaigns/>
+    <communities/>
+    <sites/>
+    <forms/>
+    <community/>
+    <community-components/>
+    <we-retail/>
+    <aemfeb/>
+    <aem1name/>
+    <check2/>
+    <check3/>
+    <check5/>
+    <check6/>
+    <aemdeveloper/>
+    <simlename/>
+    <newpage/>
+    <newpage1/>
+    <demotemplatepagename/>
+    <mypage/>
+    <testpage/>
+    <t2/>
+    <samplepage/>
+    <page1/>
+    <first/>
+    <demopage/>
+    <page2/>
+    <demopage0/>
+    <testajax/>
+</jcr:root>
